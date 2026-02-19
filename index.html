@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COFFEE | Starbucks Korea</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <a class="fixedTop" href="#">
+    <img src="./img/btn_top.png" alt="top">
+  </a>
+  <header>
+    <div class="search-wrap">
+      <div class="rel">
+        <h1 class="logo">
+          <a href="#">
+            <img src="./img/logo.png" alt="starbucks">
+          </a>
+        </h1>
+        <a href="#" class="sch-c-btn">
+          닫기
+          <img src="./img/tclose.png" alt="sch-ico">
+        </a>
+      </div>
+      <div class="sch-input-wrap">
+        <form action="sch.jsp">
+          <label for="search" class="blind">검색하기</label>
+          <input type="text" id="search" placeholder="검색어를 입력하세요">
+          <input type="submit" value="검색하기" class="sch-go-btn">
+        </form>
+      </div>
+    </div>
+    <div class="h-dep1">
+      <div class="rel">
+        <ul class="sns-wrap">
+          <li>
+            <a href="#">
+              <img src="./img/hs1.png" alt="sns-ico">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/hs2.png" alt="sns-ico">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/hs3.png" alt="sns-ico">
+            </a>
+          </li>
+        </ul>
+        <h1 class="logo">
+          <a href="#">
+            <img src="./img/logo.png" alt="logo">
+          </a>
+        </h1>
+        <ul class="util-wrap">
+          <li>
+            <a href="#" class="sch-open-btn">
+              <img src="./img/util1.png" alt="util-ico">
+              <div class="txt">검색</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/util3.png" alt="util-ico">
+              <div class="txt">위치정보</div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn-m-menu">
+              <span>menu</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="h-dep2">
+      <div class="rel">
+        <ul class="main-nav">
+          <li><a href="#">커피</a></li>
+          <li><a href="#">커피 이야기</a></li>
+          <li><a href="#">스타벅스 리저브</a></li>
+          <li><a href="#">음료</a></li>
+          <li><a href="#">푸드</a></li>
+          <li><a href="#">상품</a></li>
+          <li><a href="#">카드</a></li>
+          <li><a href="#">메뉴 이야기</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="sub-nav-wrap">
+      <div class="rel">
+        <ul class="sub-nav">
+          <li>
+            <span class="blind">커피</span>
+            <ul class="sub-list">
+              <li><a href="#">스타벅스 원두</a></li>
+              <li><a href="#">스타벅스 비아</a></li>
+              <li><a href="#">스타벅스 오리가미</a></li>
+              <li><a href="#">스타벅스앳홈 by 캡슐</a></li>
+              <li><a href="#">나와 어울리는 커피</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="blind">커피 이야기</span>
+            <ul class="sub-list">
+              <li><a href="#">농장에서 우리의 손으로</a></li>
+              <li><a href="#">최상의 아라비카 원두</a></li>
+              <li><a href="#">스타벅스 로스트 스펙트럼</a></li>
+              <li><a href="#">스타벅스 디카페인</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="blind">스타벅스 리저브</span>
+            <ul class="sub-list">
+              <li><a href="#">RESERVE MAGAZINE</a></li>
+              <li><a href="#">에스프레소 음료</a></li>
+              <li><a href="#">도피오</a></li>
+              <li><a href="#">에스프레소 마키아또</a></li>
+              <li><a href="#">아메리카노</a></li>
+              <li><a href="#">마키아또</a></li>
+              <li><a href="#">카푸치노</a></li>
+              <li><a href="#">라떼</a></li>
+              <li><a href="#">모카</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="blind">음료</span>
+            <ul class="sub-list">
+              <li><a href="#">콜드 브루</a></li>
+              <li><a href="#">브루드 커피</a></li>
+              <li><a href="#">에스프레소</a></li>
+              <li><a href="#">프라푸치노</a></li>
+              <li><a href="#">블렌디드</a></li>
+              <li><a href="#">스타벅스 리프레셔</a></li>
+              <li><a href="#">스타벅스 피지오</a></li>
+              <li><a href="#">티(티바나)</a></li>
+              <li><a href="#">기타 제조 음료</a></li>
+              <li><a href="#">스타벅스 주스(병음료)</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="blind">푸드</span>
+            <ul class="sub-list">
+              <li><a href="#">브레드</a></li>
+              <li><a href="#">케이크</a></li>
+              <li><a href="#">샌드위치 &amp; 샐러드</a></li>
+              <li><a href="#">따뜻한 푸드</a></li>
+              <li><a href="#">과일 &amp; 요거트</a></li>
+              <li><a href="#">스낵 &amp; 미니 디저트</a></li>
+              <li><a href="#">아이스크림</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="blind">상품</span>
+            <ul class="sub-list">
+              <li><a href="#">머그</a></li>
+              <li><a href="#">글라스</a></li>
+              <li><a href="#">플라스틱 텀블러</a></li>
+              <li><a href="#">스테인리스 텀블러</a></li>
+              <li><a href="#">보온병</a></li>
+              <li><a href="#">액세서리</a></li>
+              <li><a href="#">선물세트</a></li>
+              <li><a href="#">커피 용품</a></li>
+              <li><a href="#">패키지 티(티바나)</a></li>
+              <li><a href="#">시럽</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="blind">카드</span>
+            <ul class="sub-list">
+              <li><a href="#">실물카드</a></li>
+              <li><a href="#">스타벅스 모바일 카드</a></li>
+            </ul>
+          </li>
+          <li>
+            <span class="blind">메뉴 이야기</span>
+            <ul class="sub-list">
+              <li><a href="#">스타벅스 티바나</a></li>
+              <li><a href="#">스타벅스 콜드 브루</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="sns-wrap">
+          <li>
+            <a href="#">
+              <img src="./img/hs1.png" alt="sns-ico">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/hs2.png" alt="sns-ico">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/hs3.png" alt="sns-ico">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <!-- height 47rem -->
+    <div class="rel">
+      <!-- .hero-slider -->
+      <div class="swiper hero-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s01">
+            <div class="tit-wrap">
+              <h2>시즌마다 다양한 모습으로 즐거움을 주는 스타벅스 상품을 만나 보세요.</h2>
+            </div>
+          </div>
+          <div class="swiper-slide s02">
+            <div class="tit-wrap">
+              <h2>따뜻한 커피 한 잔으로 마음을 전해 보세요.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section class="depth1">
+    <div class="rel">
+      <div class="news-wrap">
+        <h3>
+          <img src="./img/leftnews.png" alt="ico">
+          <span>새소식</span>
+        </h3>
+        <div class="news-slider-wrap">
+          <div class="swiper news-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  사이렌 오더/딜리버스 음료 기본 설정 변경 안내 (ICED → HOT)
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  홈페이지 이용약관 및 스타벅스 카드 이용약관 개정 안내
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  [스타벅스] 신세계 유니버스 클럽 서비스 종료 안내
+                </a>
+              </div>
+            </div>
+            <div class="news-arr-wrap">
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info-wrap">
+        <a href="#" class="info-btn">
+          이용안내
+          <span>→</span>
+        </a>
+        <a href="#" class="info-btn dark">
+          이용현황
+          <span>→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="depth2">
+    <div class="rel">
+      <h2>HOT MENU</h2>
+      <ul class="tab">
+        <li><a href="#">스타벅스 원두</a></li>
+        <li><a href="#">샌드위치 &amp; 샐러드</a></li>
+        <li><a href="#">콜드브루 커피</a></li>
+        <li><a href="#">케이크</a></li>
+      </ul>
+    </div>
+    <div class="dep2-slider-wrap">
+      <div class="swiper dep2-sl-1 ">
+        <div class="swiper-wrapper">
+
+        </div>
+      </div>
+      <div class="swiper dep2-sl-2">
+        <div class="swiper-wrapper">
+
+        </div>
+      </div>
+      <div class="swiper dep2-sl-3">
+        <div class="swiper-wrapper">
+
+        </div>
+      </div>
+      <div class="swiper dep2-sl-4">
+        <div class="swiper-wrapper">
+
+        </div>
+      </div>
+
+      <div class="dep2-arr-wrap">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+  <section class="depth3">
+    <div class="rel">
+      <div class="in-wrap new-wrap">
+        <div class="tit-wrap">
+          <h3>신상 메뉴</h3>
+          <a href="#" class="in-add-btn">
+            <img src="./img/plus.png" alt="">
+          </a>
+        </div>
+        <div class="c-wrap">
+          <div class="new-c-wrap">
+            <div class="img-wrap">
+              <img src="./img/new-img.jpg" alt="img">
+            </div>
+            <h4>시크릿 댄싱 베어리스타 출시</h4>
+            <div class="date">2025-12-04</div>
+          </div>
+          <a href="#" class="more-btn">
+            자세히 보기
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+      <div class="in-wrap culture-wrap">
+        <div class="tit-wrap">
+          <h3>스타벅스와 문화</h3>
+          <a href="#" class="in-add-btn">
+            <img src="./img/plus.png" alt="">
+          </a>
+        </div>
+        <div class="in-slider-wrap">
+          <div class="swiper culture-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/culture-1.jpg" alt="img">
+                  </div>
+                  <div class="sl-txt">
+                    기다림이 주는 선물, 느린 우체통 매장
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/culture-2.jpg" alt="img">
+                  </div>
+                  <div class="sl-txt">
+                    커피로 완성하는 계절
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/culture-3.jpg" alt="img">
+                  </div>
+                  <div class="sl-txt">
+                    별쿠폰 자동 발행 서비스 오픈
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="in-wrap culture-wrap">
+        <div class="tit-wrap">
+          <h3>행사/전시</h3>
+          <a href="#" class="in-add-btn">
+            <img src="./img/plus.png" alt="">
+          </a>
+        </div>
+        <div class="in-slider-wrap">
+          <div class="swiper event-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/event-1.jpg" alt="img">
+                  </div>
+                  <div class="sl-txt">
+                    CARRY the MERRY 캠페인 안내
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/event-2.jpg" alt="img">
+                  </div>
+                  <div class="sl-txt">
+                    2025 별빛 라이브 12월 공연 일정
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/event-3.jpg" alt="img">
+                  </div>
+                  <div class="sl-txt">
+                    2025년 11월 놀다가시개! 펫 캠페인
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="depth4">
+    <div class="rel">
+      <div class="in-wrap card2025-wrap">
+        <div class="tit-wrap">
+          <h3>2025년 카드</h3>
+          <a href="#" class="in-add-btn">
+            <img src="./img/plus.png" alt="">
+          </a>
+        </div>
+        <div class="in-slider-wrap">
+          <div class="swiper card2025-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2025-1.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2025년 스타벅스 출시 카드
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2025-2.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2025년 스타벅스 출시 카드            
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2025-3.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2025년 스타벅스 출시 카드               
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2025-4.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2025년 스타벅스 출시 카드               
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2025-5.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2025년 스타벅스 출시 카드               
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="in-wrap card2024-wrap">
+        <div class="tit-wrap">
+          <h3>2024년 카드</h3>
+          <a href="#" class="in-add-btn">
+            <img src="./img/plus.png" alt="">
+          </a>
+        </div>
+        <div class="in-slider-wrap">
+          <div class="swiper card2024-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2024-1.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2024년 스타벅스 출시 카드
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2024-2.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2024년 스타벅스 출시 카드
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2024-3.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2024년 스타벅스 출시 카드
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="in-wrap card2023-wrap">
+        <div class="tit-wrap">
+          <h3>2023년 카드</h3>
+          <a href="#" class="in-add-btn">
+            <img src="./img/plus.png" alt="">
+          </a>
+        </div>
+        <div class="in-slider-wrap">
+          <div class="swiper card2023-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2023-1.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2023년 스타벅스 출시 카드
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2023-1.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2023년 스타벅스 출시 카드
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="img-wrap">
+                    <img src="./img/2023-3.png" alt="card">
+                  </div>
+                  <div class="sl-txt">
+                    2023년 스타벅스 출시 카드
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="depth5">
+    <div class="rel">
+      <div class="notice-media-wrap">
+        <h2>
+          <span class="on">공지사항</span>
+          <span>언론보도</span>
+        </h2>
+        <div class="content-wrap">
+          <ul class="notice-list Active">
+            <li>
+              <a href="#">
+                <span class="txt">사이렌 오더 서비스 구버전 지원 종료 안내</span>
+                <span class="date">2025-07-19</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="txt">시스템 개선 및 서비스 점검 안내</span>
+                <span class="date">2025-08-19</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="txt">계좌 결제 기능 일시 중단 안내</span>
+                <span class="date">2025-09-19</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="txt">홈페이지 이용약관 개정 안내</span>
+                <span class="date">2025-10-19</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="media-list">
+            <li>
+              <a href="#">
+                <span class="txt">스타벅스 홈페이지 ‘My 캘린더’ 서비스 종료 및 그에 따른 홈페이지 이용약관 개정 안내</span>
+                <span class="date">2025-10-19</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="txt">위치정보 이용약관 / 스타벅스 카드 이용약관 개정 안내</span>
+                <span class="date">2025-11-19</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="txt">홈페이지 이용약관(SSGPAY 결제 수단 추가) 변경 안내</span>
+                <span class="date">2025-12-19</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="txt">딜리버스 예약 서비스 중단 안내</span>
+                <span class="date">2025-12-19</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-wrap">
+        <div class="open-notice">
+          <a href="#">
+            <img src="./img/icon1.png" alt="icon">
+            <div class="t-wrap">
+              <h4>개장안내</h4>
+              <p class="txt">
+                개장에 관련된 일정을 확인하세요
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="open-notice qna">
+          <a href="#">
+            <img src="./img/icon2.png" alt="icon">
+            <div class="t-wrap">
+              <h4>자주하는 질문</h4>
+              <p class="txt">
+                많은 분들이 궁금해 하시는 질문 모음입니다.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="dep1">
+      <div class="rel">
+        <h4>관련사이트</h4>
+        <div class="site swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="./img/site1.jpg" alt="site-img">
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="./img/site2.jpg" alt="site-img">
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="./img/site3.jpg" alt="site-img">
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="./img/site4.jpg" alt="site-img">
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="./img/site5.jpg" alt="site-img">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-wrap">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+    <div class="dep2">
+      <div class="rel">
+        <div class="left">
+          <h5>Starbucks Coffee</h5>
+          <div class="foot-info">
+            <span>사업자등록번호 : 201-81-21515</span>
+            <span>주식회사 에스씨케이컴퍼니</span>
+            <span>대표이사 : 손정현</span>
+            <span>TEL : 1522-3232</span>
+            <span>개인정보 보호책임자 : 이찬우</span>
+          </div>
+          <div class="copy">
+            &copy; 2025 Starbucks Coffee. All Rights Reserved.
+          </div>
+        </div>
+        <div class="right">
+          <div class="foot-link">
+            <a href="#">
+              <img src="./img/foot1.png" alt="ico">
+              <span>개인정보취급방침</span>
+            </a>
+            <a href="#">
+              <img src="./img/foot1.png" alt="ico">
+              <span>이메일주소무단수집거부</span>
+            </a>
+          </div>
+          <div class="banner">
+            <a href="#">
+              <img src="./img/f_logo.png" alt="logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script type="module" src="./js/tab.js"></script>
+</body>
+</html>
